@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC492212AB0AEE300D728AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC492202AB0AEE300D728AB /* AppDelegate.swift */; };
+		2AC492232AB0AEE300D728AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC492222AB0AEE300D728AB /* SceneDelegate.swift */; };
+		2AC492252AB0AEE300D728AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC492242AB0AEE300D728AB /* ViewController.swift */; };
+		2AC492282AB0AEE300D728AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC492262AB0AEE300D728AB /* Main.storyboard */; };
+		2AC4922B2AB0AEE300D728AB /* CafeCollectionCox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AC492292AB0AEE300D728AB /* CafeCollectionCox.xcdatamodeld */; };
+		2AC4922D2AB0AEE400D728AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4922C2AB0AEE400D728AB /* Assets.xcassets */; };
+		2AC492302AB0AEE400D728AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4922E2AB0AEE400D728AB /* LaunchScreen.storyboard */; };
+		2AC4923B2AB0AEE400D728AB /* CafeCollectionCoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4923A2AB0AEE400D728AB /* CafeCollectionCoxTests.swift */; };
+		2AC492452AB0AEE400D728AB /* CafeCollectionCoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC492442AB0AEE400D728AB /* CafeCollectionCoxUITests.swift */; };
+		2AC492472AB0AEE400D728AB /* CafeCollectionCoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC492462AB0AEE400D728AB /* CafeCollectionCoxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC492372AB0AEE400D728AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC492152AB0AEE300D728AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC4921C2AB0AEE300D728AB;
+			remoteInfo = CafeCollectionCox;
+		};
+		2AC492412AB0AEE400D728AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC492152AB0AEE300D728AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC4921C2AB0AEE300D728AB;
+			remoteInfo = CafeCollectionCox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC4921D2AB0AEE300D728AB /* CafeCollectionCox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeCollectionCox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC492202AB0AEE300D728AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AC492222AB0AEE300D728AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AC492242AB0AEE300D728AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AC492272AB0AEE300D728AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC4922A2AB0AEE300D728AB /* CafeCollectionCox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CafeCollectionCox.xcdatamodel; sourceTree = "<group>"; };
+		2AC4922C2AB0AEE400D728AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC4922F2AB0AEE400D728AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC492312AB0AEE400D728AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC492362AB0AEE400D728AB /* CafeCollectionCoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeCollectionCoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC4923A2AB0AEE400D728AB /* CafeCollectionCoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCollectionCoxTests.swift; sourceTree = "<group>"; };
+		2AC492402AB0AEE400D728AB /* CafeCollectionCoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeCollectionCoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC492442AB0AEE400D728AB /* CafeCollectionCoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCollectionCoxUITests.swift; sourceTree = "<group>"; };
+		2AC492462AB0AEE400D728AB /* CafeCollectionCoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCollectionCoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC4921A2AB0AEE300D728AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC492332AB0AEE400D728AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4923D2AB0AEE400D728AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC492142AB0AEE300D728AB = {
+			isa = PBXGroup;
+			children = (
+				2AC4921F2AB0AEE300D728AB /* CafeCollectionCox */,
+				2AC492392AB0AEE400D728AB /* CafeCollectionCoxTests */,
+				2AC492432AB0AEE400D728AB /* CafeCollectionCoxUITests */,
+				2AC4921E2AB0AEE300D728AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC4921E2AB0AEE300D728AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4921D2AB0AEE300D728AB /* CafeCollectionCox.app */,
+				2AC492362AB0AEE400D728AB /* CafeCollectionCoxTests.xctest */,
+				2AC492402AB0AEE400D728AB /* CafeCollectionCoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC4921F2AB0AEE300D728AB /* CafeCollectionCox */ = {
+			isa = PBXGroup;
+			children = (
+				2AC492202AB0AEE300D728AB /* AppDelegate.swift */,
+				2AC492222AB0AEE300D728AB /* SceneDelegate.swift */,
+				2AC492242AB0AEE300D728AB /* ViewController.swift */,
+				2AC492262AB0AEE300D728AB /* Main.storyboard */,
+				2AC4922C2AB0AEE400D728AB /* Assets.xcassets */,
+				2AC4922E2AB0AEE400D728AB /* LaunchScreen.storyboard */,
+				2AC492312AB0AEE400D728AB /* Info.plist */,
+				2AC492292AB0AEE300D728AB /* CafeCollectionCox.xcdatamodeld */,
+			);
+			path = CafeCollectionCox;
+			sourceTree = "<group>";
+		};
+		2AC492392AB0AEE400D728AB /* CafeCollectionCoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4923A2AB0AEE400D728AB /* CafeCollectionCoxTests.swift */,
+			);
+			path = CafeCollectionCoxTests;
+			sourceTree = "<group>";
+		};
+		2AC492432AB0AEE400D728AB /* CafeCollectionCoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC492442AB0AEE400D728AB /* CafeCollectionCoxUITests.swift */,
+				2AC492462AB0AEE400D728AB /* CafeCollectionCoxUITestsLaunchTests.swift */,
+			);
+			path = CafeCollectionCoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC4921C2AB0AEE300D728AB /* CafeCollectionCox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4924A2AB0AEE400D728AB /* Build configuration list for PBXNativeTarget "CafeCollectionCox" */;
+			buildPhases = (
+				2AC492192AB0AEE300D728AB /* Sources */,
+				2AC4921A2AB0AEE300D728AB /* Frameworks */,
+				2AC4921B2AB0AEE300D728AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeCollectionCox;
+			productName = CafeCollectionCox;
+			productReference = 2AC4921D2AB0AEE300D728AB /* CafeCollectionCox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC492352AB0AEE400D728AB /* CafeCollectionCoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4924D2AB0AEE400D728AB /* Build configuration list for PBXNativeTarget "CafeCollectionCoxTests" */;
+			buildPhases = (
+				2AC492322AB0AEE400D728AB /* Sources */,
+				2AC492332AB0AEE400D728AB /* Frameworks */,
+				2AC492342AB0AEE400D728AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC492382AB0AEE400D728AB /* PBXTargetDependency */,
+			);
+			name = CafeCollectionCoxTests;
+			productName = CafeCollectionCoxTests;
+			productReference = 2AC492362AB0AEE400D728AB /* CafeCollectionCoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC4923F2AB0AEE400D728AB /* CafeCollectionCoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC492502AB0AEE400D728AB /* Build configuration list for PBXNativeTarget "CafeCollectionCoxUITests" */;
+			buildPhases = (
+				2AC4923C2AB0AEE400D728AB /* Sources */,
+				2AC4923D2AB0AEE400D728AB /* Frameworks */,
+				2AC4923E2AB0AEE400D728AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC492422AB0AEE400D728AB /* PBXTargetDependency */,
+			);
+			name = CafeCollectionCoxUITests;
+			productName = CafeCollectionCoxUITests;
+			productReference = 2AC492402AB0AEE400D728AB /* CafeCollectionCoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC492152AB0AEE300D728AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2AC4921C2AB0AEE300D728AB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2AC492352AB0AEE400D728AB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2AC4921C2AB0AEE300D728AB;
+					};
+					2AC4923F2AB0AEE400D728AB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2AC4921C2AB0AEE300D728AB;
+					};
+				};
+			};
+			buildConfigurationList = 2AC492182AB0AEE300D728AB /* Build configuration list for PBXProject "CafeCollectionCox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC492142AB0AEE300D728AB;
+			productRefGroup = 2AC4921E2AB0AEE300D728AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC4921C2AB0AEE300D728AB /* CafeCollectionCox */,
+				2AC492352AB0AEE400D728AB /* CafeCollectionCoxTests */,
+				2AC4923F2AB0AEE400D728AB /* CafeCollectionCoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC4921B2AB0AEE300D728AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC492302AB0AEE400D728AB /* LaunchScreen.storyboard in Resources */,
+				2AC4922D2AB0AEE400D728AB /* Assets.xcassets in Resources */,
+				2AC492282AB0AEE300D728AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC492342AB0AEE400D728AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4923E2AB0AEE400D728AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC492192AB0AEE300D728AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC492252AB0AEE300D728AB /* ViewController.swift in Sources */,
+				2AC492212AB0AEE300D728AB /* AppDelegate.swift in Sources */,
+				2AC492232AB0AEE300D728AB /* SceneDelegate.swift in Sources */,
+				2AC4922B2AB0AEE300D728AB /* CafeCollectionCox.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC492322AB0AEE400D728AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4923B2AB0AEE400D728AB /* CafeCollectionCoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4923C2AB0AEE400D728AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC492472AB0AEE400D728AB /* CafeCollectionCoxUITestsLaunchTests.swift in Sources */,
+				2AC492452AB0AEE400D728AB /* CafeCollectionCoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC492382AB0AEE400D728AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC4921C2AB0AEE300D728AB /* CafeCollectionCox */;
+			targetProxy = 2AC492372AB0AEE400D728AB /* PBXContainerItemProxy */;
+		};
+		2AC492422AB0AEE400D728AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC4921C2AB0AEE300D728AB /* CafeCollectionCox */;
+			targetProxy = 2AC492412AB0AEE400D728AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC492262AB0AEE300D728AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC492272AB0AEE300D728AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC4922E2AB0AEE400D728AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC4922F2AB0AEE400D728AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC492482AB0AEE400D728AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AC492492AB0AEE400D728AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC4924B2AB0AEE400D728AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CafeCollectionCox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.CafeCollectionCox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC4924C2AB0AEE400D728AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CafeCollectionCox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.CafeCollectionCox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC4924E2AB0AEE400D728AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.CafeCollectionCoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CafeCollectionCox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CafeCollectionCox";
+			};
+			name = Debug;
+		};
+		2AC4924F2AB0AEE400D728AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.CafeCollectionCoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CafeCollectionCox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CafeCollectionCox";
+			};
+			name = Release;
+		};
+		2AC492512AB0AEE400D728AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.CafeCollectionCoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CafeCollectionCox;
+			};
+			name = Debug;
+		};
+		2AC492522AB0AEE400D728AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.CafeCollectionCoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CafeCollectionCox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC492182AB0AEE300D728AB /* Build configuration list for PBXProject "CafeCollectionCox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC492482AB0AEE400D728AB /* Debug */,
+				2AC492492AB0AEE400D728AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC4924A2AB0AEE400D728AB /* Build configuration list for PBXNativeTarget "CafeCollectionCox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4924B2AB0AEE400D728AB /* Debug */,
+				2AC4924C2AB0AEE400D728AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC4924D2AB0AEE400D728AB /* Build configuration list for PBXNativeTarget "CafeCollectionCoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4924E2AB0AEE400D728AB /* Debug */,
+				2AC4924F2AB0AEE400D728AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC492502AB0AEE400D728AB /* Build configuration list for PBXNativeTarget "CafeCollectionCoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC492512AB0AEE400D728AB /* Debug */,
+				2AC492522AB0AEE400D728AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AC492292AB0AEE300D728AB /* CafeCollectionCox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AC4922A2AB0AEE300D728AB /* CafeCollectionCox.xcdatamodel */,
+			);
+			currentVersion = 2AC4922A2AB0AEE300D728AB /* CafeCollectionCox.xcdatamodel */;
+			path = CafeCollectionCox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AC492152AB0AEE300D728AB /* Project object */;
+}

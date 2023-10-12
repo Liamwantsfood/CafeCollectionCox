@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  creativeApp
+//  newCreativeApp
 //
-//  Created by WILLIAM COX on 8/30/23.
+//  Created by WILLIAM COX on 9/7/23.
 //
 
 import UIKit
